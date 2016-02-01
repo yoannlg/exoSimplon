@@ -1,3 +1,6 @@
+html{
+	height: 100%;
+}
 body {
 	background-color:#E1E0E0;
 	color:grey;
@@ -32,7 +35,7 @@ i{
 }
 
 #container {
-	width: 700px;
+	width: 80%;
 	margin: 0 auto;
 }
 #bouton{
@@ -43,6 +46,17 @@ i{
 	border-radius: 20px;
 	padding: 5px;
 }
+#menu {
+  display: block;
+  position: fixed;
+  left: 0;
+  width: 5em;
+  height: 100%;
+  margin-top: -3em;
+  margin-right: 5em;
+  background-color: #384047;
+  }
+
 .card {
 	box-shadow: 10px 10px 10px #888888;
 	margin-top: 50px;
