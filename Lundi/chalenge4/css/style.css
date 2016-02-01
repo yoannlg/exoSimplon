@@ -34,4 +34,24 @@ td {
 	box-shadow: 10px 10px 10px #888888;
 	margin-top: 50px;
 	background-color: #FDFDFD;
+	text-align: center;
+}
+
+.img-rond{
+    border-radius:50px;
+    width:100px;
+    height:100px;
+}
+
+.list-inline {
+padding-left: 0px;
+list-style: none;
+}
+
+.list-inline > li {
+display: inline-block;
+width: 120px;
+}
+.bloc{
+	display: block;
 }
