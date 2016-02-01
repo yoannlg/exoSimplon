@@ -86,3 +86,9 @@ width: 120px;
 .bloc{
 	display: block;
 }
+
+.lien-nu {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
