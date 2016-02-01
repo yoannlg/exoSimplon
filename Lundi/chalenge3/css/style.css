@@ -1,5 +1,5 @@
 body {
-	background-color:#E6154D;
+	background-color:#E1E0E0;
 }
 
 h1, h2 {
@@ -8,13 +8,13 @@ h1, h2 {
 }
 
 a {
-	color: yellow;
+	color: red;
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
 
 a:hover {
-color: yellow;
+color: green;
 text-decoration: none;
 }
 
@@ -22,11 +22,16 @@ img {
 	width: 300px;
 }
 
+td {
+	padding: 10px;
+}
+
 #container {
-	width: 500px;
+	width: 700px;
 	margin: 0 auto;
 }
 .card {
 	box-shadow: 10px 10px 10px #888888;
 	margin-top: 50px;
+	background-color: #FDFDFD;
 }
