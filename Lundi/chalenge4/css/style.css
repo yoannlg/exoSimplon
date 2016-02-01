@@ -1,20 +1,21 @@
 body {
 	background-color:#E1E0E0;
+	color:grey;
 }
 
 h1, h2 {
 	font-family: 'Montserrat', sans-serif;
-	color: #0080FF;
+	color: #E6154D;
 }
 
-a {
+a{
 	color: red;
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
 
 a:hover {
-color: green;
+color: blue;
 text-decoration: none;
 }
 
@@ -26,21 +27,37 @@ td {
 	padding: 10px;
 }
 
+i{
+	margin: 10px;
+}
+
 #container {
 	width: 700px;
 	margin: 0 auto;
 }
+#bouton{
+	background-color: #E6154D;
+	width: 20%;
+	margin:0 auto;
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
 .card {
 	box-shadow: 10px 10px 10px #888888;
 	margin-top: 50px;
+	padding: 10px;
 	background-color: #FDFDFD;
 	text-align: center;
 }
+.card:first-child {
+	padding-top: 30px;
+}
 
 .img-rond{
-    border-radius:50px;
-    width:100px;
-    height:100px;
+    border-radius:70px;
+    width:120px;
+    height:120px;
 }
 
 .list-inline {
