@@ -1,0 +1,39 @@
+html {
+	background-color: #E9E9EC;
+	padding: 20px;
+}
+#bloc-page{
+	background-color: white;
+}
+#header {
+	text-align: center;
+	padding: 5%;
+}
+#titre {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: grey;
+}
+#container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+#logo {
+	width: 50%;
+}
+img{
+	width: 100%;
+}
+
+#right, p {
+	color: grey;
+}
+hr{
+	width: 20%;
+	margin-left: 0;
+	color: grey;
+}
