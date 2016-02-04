@@ -1,0 +1,26 @@
+.avatar {
+	overflow:hidden;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+.avatar-large {
+ 	overflow:hidden;
+    border-radius:90px;
+    width:140px;
+    height:140px;
+}
+.avatar-bordered {
+	border: 2px solid white;
+	box-shadow: 5px 5px 5px black;
+	overflow:hidden;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+.avatar-square {
+	border: 2px solid white;
+	box-shadow: 5px 5px 7px black;
+	width:90px;
+    height:90px;
+}

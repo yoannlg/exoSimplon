@@ -1,0 +1,36 @@
+.btn-medium {
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: white;
+    color: #C8C8C8;
+    border: 1px solid #C8C8C8;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.btn-treehouse {
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #6AD58B;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.btn-color {
+    background-color: #469AE0;
+}
+.btn-lg {
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}

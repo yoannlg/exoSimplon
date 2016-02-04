@@ -1,0 +1,20 @@
+.banner{
+    height:200vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0,36,61,0.6) 50%), url('../images/background.jpg'), no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.banner-content {
+	
+}
+.banner-content h1{
+	color: white;
+}
+.banner-content p{
+	color: grey;
+	margin-bottom: 30px;
+}
