@@ -1,20 +1,21 @@
 body {
 	font-size: 14px;
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 		/*DIV HERO*/
 #hero {
-	width: 100%;
-	height:19em;
+	width: auto;
+	height: 48vh;
 	background: url("../images/home_main_desktop.jpg") no-repeat;
-	background-size: 100vw;
+	background-size: 100% 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding-top: 16%;
-
+	/*padding-top: 14%;*/
 }
 
 #bouton {
@@ -27,21 +28,22 @@ body {
 	align-items: center;
 	flex-direction: column;
 	padding: 15px;
-	margin-top: 25%;
+	margin: 200px auto 50px;
 	font-weight: bold;
-
 }
-
 .hero{
-	margin-top: 20%;
+	color: white;	
 }
-
 	/*DIV NAV-BLACK*/
 #nav-black {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	background-color:#000000;
+	color: white;
+}
+#nav-responsive{
+	display: none;
 }
 
 .list-inline {
@@ -56,8 +58,6 @@ body {
 	text-decoration: none;
 	color: white;
 }
-
-
 
 	/*DIV FIXED-BAR*/
 #container {
@@ -86,8 +86,9 @@ body {
 	display: flex;
 	justify-content: center;
 	background-color: #E1E1E1;
-	width: 100vw;
-	height: 50vh;
+	width: 100%;
+	min-width: 50%;
+	height: 450px;
 }
 #centre img {
 	width: 18vw;
@@ -233,3 +234,84 @@ justify-content: center;
  hr{
  	width: 80%;
  }
+
+
+ 	/*DIV NAV-BLACK RESPONSIVE*/
+
+@media screen and (max-width: 768px){
+	#nav-black{
+		display: none;
+	}
+	#nav-responsive{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: auto;
+		height: 80px;
+		background-color: black;
+		color: white;
+	}
+	#nav-responsive img {
+	width: auto;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #868686;
+	border: 2px solid white;
+}
+	/*DIV FIXED-BAR RESPONSIVE*/
+	#fixed-bar {
+		width: auto;
+		height: 20px;
+	}
+	#container {
+		display: none;
+	}
+	/*DIV 3 IMAGES RESPONSIVE*/
+	#centre {
+		border: 2px solid green;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: space-around;
+		flex-direction: column;
+	}
+	.imageText {
+		height: 37vh;
+	text-align: center;
+	font-size: 15px;
+	text-transform: uppercase;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	background-color: white;
+	margin: 0 15px;
+	}
+}
+
+
+
+
+
+/*#nav-black {
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+#nav-black p {display: none;}
+.list-inline li{display: none;}
+#nav-responsive {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+#nav-responsive img {
+	width: 20%;
+	border-radius: 50%;
+	background-color: #868686;
+	border: 2px solid white;
+}
+
+*/
