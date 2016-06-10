@@ -1,4 +1,4 @@
-.btn-medium {
+.btn-rond {
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
@@ -6,10 +6,10 @@
     color: #C8C8C8;
     border: 1px solid #C8C8C8;
     border-radius: 50px;
-    padding: 15px;
+    padding: 15px;          /*hauteur du bouton*/
 }
 
-.btn-treehouse {
+.btn-arrondi {
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
@@ -21,7 +21,7 @@
 .btn-color {
     background-color: #469AE0;
 }
-.btn-lg {
+.btn-carre {
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
